@@ -11,7 +11,7 @@
 
   variable "client_certificate_path" {
     type = string
-    default = "C:\\Users\\vdudnic\\Documents\\_1Alstom\\AZURE\\TerraformFormation_JAN2023\\service-principal.pfx"
+    default = "./service-principal.pfx"
   }
   
   variable "tenant_id" {
